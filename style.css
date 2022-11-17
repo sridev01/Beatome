@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: goldenrod !important;
+}
+
+#navbarSupportedContent a{
+    color: whitesmoke;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid goldenrod ;
+
+}
+ 
+#navbarSupportedContent button{
+    background-color: goldenrod;
+    width: 5rem;
+    border-radius: 10px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Home {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+
+#Home h1{
+    font-size: 100px;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255),
+                 0px 2px 0px rgb(255, 255, 255),
+                 0px 3px 0px rgb(255, 255, 255),
+                 0px 4px 0px rgb(255, 255, 255),
+                 0px 5px 0px rgb(255, 255, 255),
+                 0px 6px 0px rgb(245, 245, 245);
+}
+
+#Home p{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+.signin{
+    background: goldenrod !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3); 
+}
+
+#about{
+    background: black;
+}
+
+#about{
+    background: linear-gradient(rgb(254, 201, 54),rgb(0, 0, 0) 75%)
+}
+
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serifx;
+}
+
+
+#about h2{
+    font-weight: 600;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serifx;
+}
+
+#about p{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serifx;
+
+}
+
+.aboutimage {
+    position: relative;
+    bottom: 130px;
+}
+
+.abouttext {
+    position: relative;
+    top: 60px;
+
+
+}
+
+#services{
+    background: url(orderbackground.jpg); 
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+    
+}
+
+#services h1{
+    color: whitesmoke;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#services img{
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.card{
+    width: 240px;
+    height: 320px;
+    position: relative;
+    left: 30px;
+    background: black !important;
+    border: goldenrod !important;
+    box-shadow: 15px 10px 10px rgb(81, 65, 24),
+                inset 4px 4px 10px goldenrod;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+
+} 
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgb(134, 94, 1),
+                inset -4px -4px 10px rgba(211, 165, 49, 0.85);
+    transition: .2s;
+}
+
+#contact img{
+ height: 350px;
+ margin-top: -50px;
+
+}
+
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+
+}
+
+form{
+     display: flex;
+     flex-direction: column;
+
+}
+
+#contact input{
+    margin: 5px 0px;
+}
+
+#contact textarea{
+    margin: 5px 0px;
+}
+
+#contact{
+    background: url(contactus.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+
+.card-title{
+    color: whitesmoke;
+}
+
+
+
